@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dragon Website</title>
+  <style>
+    h1 {
+      color: red;
+    }
+    body {
+      text-align: center;
+      background: pink;
+    }
+    .saying {
+      color: aqua;
+    }
+
+    .saying span {
+      font-size: 30px;
+    }
+
+    #name {
+      text-decoration: underline;
+    }
+
+    .parent {
+      background: white;
+    }
+
+    img {
+      width: 400px;
+      transition: all 1s;
+    }
+
+    img:hover {
+      filter: invert(1);
+      transform: translate(100px, 100px);
+    }
+
+    button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 100px;
+      background: green;
+      color: pink;
+      transition: all 1s;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dragon Website</h1>
+  <p>Not a saying</p>
+  <p class="saying">Explanationg of dragon <span>HELLO</span></p>
+  <p class="saying">Constant reasoning</p>
+  <img src="img/images.jpeg" alt="Dragon">
+  <h2 id="name">Pizza's measurement</h2>
+  <div class="parent">
+    <p>child 1</p>
+    <p>child 2</p>
+  </div>
+  <button id="fire-button" >fireee</button>
+  <script src="script.js"></script>
+</body>
+</html>

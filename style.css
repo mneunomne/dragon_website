@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+body {
+  text-align: center;
+  background: pink;
+}
+.saying {
+  color: aqua;
+}
+
+.saying span {
+  font-size: 30px;
+}
+
+#name {
+  text-decoration: underline;
+}
